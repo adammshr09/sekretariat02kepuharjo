@@ -191,6 +191,7 @@ def buat_hubunganpelapor(message):
                             + '`' + str(user.nikpelapor) + '`' + '\nAlamat : '
                             + '`' + str(user.alamatpelapor) + '`' +  '\nHubungan pelapor : '
                             + '`' + str(user.hubunganpelapor) + '`', reply_markup=keyboard, parse_mode='Markdown')
+            bot.register_next_step_handler(message, nothing)
     else:
         bot.send_message(message.from_user.id, 'Masukkan hubungan pelapor dengan kematian!')
         bot.register_next_step_handler(message, buat_hubunganpelapor)
