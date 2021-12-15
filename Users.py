@@ -1,0 +1,32 @@
+class User:  
+    def __init__(self, user_id):
+        self.user_id = user_id
+        self.nomorsuratpengantar = None
+        self.nomorsuratkematian = None
+        self.tanggalsuratpengantar = None
+        self.tanggalsuratkematian = None
+        self.namapemohon = None
+        self.namakematian = None
+        self.namapelapor = None
+        self.jeniskelaminpemohon = None
+        self.jeniskelaminkematian = None
+        self.jeniskelaminpelapor = None
+        self.ttlpemohon = None
+        self.ttlkematian = None
+        self.ttlpelapor = None
+        self.statuspemohon = None
+        self.agamapemohon = None
+        self.pekerjaanpemohon = None
+        self.nikpemohon = None
+        self.nikkematian = None
+        self.nikpelapor = None
+        self.nokkkematian = None
+        self.pbbpemohon = None
+        self.alamatpemohon = None
+        self.alamatkematian = None
+        self.alamatpelapor = None
+        self.keperluanpemohon = None
+        self.waktukematian = None
+        self.hubungankematian = None
+
+user_dict = {}  
